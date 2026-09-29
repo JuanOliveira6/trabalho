@@ -34,8 +34,8 @@ trabalho/
 ├── sobre.html
 ├── contato.html
 ├── Galeria.html
-├── style.css
 └── README.md
+📁 Style
 📁 Imgs
 
 
