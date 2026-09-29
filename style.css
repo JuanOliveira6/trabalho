@@ -1,26 +1,42 @@
 body{
-  background-color:black;
+  background-color: #2B6F9F;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 h1{
   text-align: center;
-  background-color: red;
-  color: white;
-
+  background-color: #123B5D;
+  color: #F0F8FF;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 15px;
 }
+
 h2{
   text-align: center;
-  background-color: red;
-  color: white;
-  
+  background-color: #A9D6EF;
+  color: #164A70;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px;
 }
+
 .ph{
   text-align: center;
-  color: white;
+  color: #F0F8FF;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
 }
+
 th{
-gap: 70%;
+  gap: 70%;
 }
+
 .img_apres{
   display: flex;
   justify-content: center;
@@ -28,50 +44,61 @@ gap: 70%;
   
   width: 200px;
   height: 200px;
-  background-color: black;
+  background-color: #0B263D;
   margin: 0 auto;          
 }
+
 .img_apres img {
   width: 100%;
   height: 100%;
   object-fit: cover;       
   display: block;          
 }
+
 .menu{
-  background-color: rgb(211, 0, 0);
+  background-color: #1769AA;
   display: flex;
   justify-content: center;
   height:60px;
   margin:30px;
-  
 }
+
 ul{
-  color:white;
-   text-align: center;
-   list-style-type: none;
+  color: #F0F8FF;
+  text-align: center;
+  list-style-type: none;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
 }
+
 a{
-  color:white;
-  background-color: #ac0000;
+  color: #F0F8FF;
+  background-color: #1769AA;
   text-decoration: none;
-   margin-right: 15px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 15px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
+
 a:hover{
-  background-color: rgb(172, 15, 15) ;
-  display: inline-block;
-  color:rgb(0, 0, 0);
+  background-color: #5BB5E5;
+  color: #082032;
   text-decoration: none;
-  display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 19px;
+ 
+
 }
+
 table{
   width: center;
   border-collapse: collapse;
-  margin: 20px 0; 
+  margin: 20px 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
+
 .mapa{
   display: flex;
   justify-content: center;
@@ -79,10 +106,75 @@ table{
   
   width: 500px;
   height: 280px;
-  background-color: black;
+  background-color: #0B263D;
   margin: 0 auto;         
 }
+
 footer{
-  color: gray;
+  color: #C7DCEB;
   text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 14px;
+}
+
+a{ 
+  color: #F0F8FF;
+}
+
+p{
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #F0F8FF;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.insta{
+  background-color: #5BB5E5;
+  width: 120px; 
+  margin-top: 80px; 
+  margin-left: 680px;
+  border-radius: 10px;
+}
+
+img{
+  width: 40px; 
+  height: 40px;
+  margin-top: 20px;
+}
+
+.email{
+ background-color: #5BB5E5;
+  width: 120px;
+  margin-left: 680px; 
+  border-radius: 10px;
+}
+
+img{
+  width: 40px; 
+  height: 40px; 
+  margin-top: 20px; 
+  margin-left: 40px;
+}
+
+.Github{
+  background-color: #5BB5E5;
+  width: 120px;
+  margin-left: 680px;
+  border-radius: 10px;
+}
+
+img{
+  width: 40px;
+  height: 40px; 
+  margin-top: 20px; 
+  margin-left: 40px;
+}
+
+footer{
+  margin-top: 120PX;
+}
+.qt{
+  text-align: center;
+  
 }
